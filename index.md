@@ -29,4 +29,4 @@ Oriedita can simulate folding a crease pattern and show if a crease pattern is f
 
 If you want to get involved you can join our Discord server.
 
-<iframe src="https://discord.com/widget?id=905741535625244672&theme=light" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<iframe src="https://discord.com/widget?id=905741535625244672&theme=light" height="300" style="width:100%;" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
