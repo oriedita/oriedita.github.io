@@ -16,10 +16,10 @@ Oriedita can simulate folding a crease pattern and show if a crease pattern is f
 
 [![](https://img.shields.io/github/v/release/oriedita/oriedita?label=Latest%20release&style=for-the-badge)](https://github.com/oriedita/oriedita/releases/latest)
 
-You can find all releases of Oriedita on the [GitHub Releases Page](https://github.com/oriedita/oriedita/releases).
+You can find all releases of Oriedita on the [GitHub Releases Page](https://github.com/oriedita/oriedita/releases). 
 
 ## Comunity
 
-If you want to get involved you can join our Discord server.
+[![](https://img.shields.io/discord/905741535625244672?style=for-the-badge)](https://discord.gg/AnqETxTvvr)
 
-<iframe src="https://discord.com/widget?id=905741535625244672&theme=light" height="300" style="width:100%;" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+If you want to get involved you can join our [Discord server](https://discord.gg/AnqETxTvvr). This server is the main communications channel, it is also used to announce new releases. You can also create an issue or discussion on GitHub.
