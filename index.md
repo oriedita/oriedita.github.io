@@ -14,7 +14,9 @@ Oriedita can simulate folding a crease pattern and show if a crease pattern is f
 
 ## Download Oriedita
 
-[Download the latest version from the Releases page.](https://github.com/oriedita/oriedita/releases)
+[![](https://img.shields.io/github/v/release/oriedita/oriedita?label=Latest%20release&style=for-the-badge)](https://github.com/oriedita/oriedita/releases/latest)
+
+You can find all releases of Oriedita on the [GitHub Releases Page](https://github.com/oriedita/oriedita/releases).
 
 ## Saving
 
