@@ -28,6 +28,9 @@ remote_theme: pmarsceill/just-the-docs
 # Build settings
 #theme: just-the-docs
 
+plugins:
+  - jekyll-sitemap
+
 aux_links:
   "Contribute":
     - "//github.com/oriedita/oriedita"
