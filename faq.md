@@ -42,7 +42,7 @@ ORIPA has a different way of drawing, which some people find easier to use.
 
 Oriedita performs better when editing large crease patterns and is able to fold more complex crease patterns.
 
-[Configuration]: ./configuration.md.
+[Configuration]: ./configuration.md
 [Orihime]: ./orihime.md
 [fork]: https://en.wikipedia.org/wiki/Fork_(software_development)
 [ORIPA]: https://github.com/oripa/oripa
