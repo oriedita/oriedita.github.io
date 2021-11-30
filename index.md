@@ -4,6 +4,8 @@ title: Oriedita
 nav_order: 1
 ---
 
+{%- include latest-version.md -%}
+
 # Oriedita
 
 [_Oriedita is a fork of Orihime オリヒメ and not affiliated with the original version._](./orihime.md)
@@ -12,13 +14,11 @@ Oriedita is a computer program used for drawing origami crease patterns. It come
 
 Oriedita can simulate folding a crease pattern and show if a crease pattern is flat-foldable, and if it is, show a folded version of the crease pattern.
 
+<span class="fs-8">
+[Download Oriedita {{ latest-version }}](./download.md){: .btn .btn-download :}
+</span>
+
 ![](https://i.imgur.com/w1Nh7aC.png)
-
-## Download Oriedita
-
-[![](https://img.shields.io/github/v/release/oriedita/oriedita?label=Latest%20release&style=for-the-badge)](https://github.com/oriedita/oriedita/releases/latest)
-
-You can find all releases of Oriedita on the [GitHub Releases Page](https://github.com/oriedita/oriedita/releases). 
 
 ## Comunity
 

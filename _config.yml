@@ -27,7 +27,7 @@ url: "https://oriedita.github.io" # the base hostname & protocol for your site, 
 remote_theme: pmarsceill/just-the-docs
 # Build settings
 #theme: just-the-docs
-
+livereload: true
 plugins:
   - jekyll-sitemap
 

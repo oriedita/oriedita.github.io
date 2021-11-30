@@ -1,1 +1,4 @@
 $link-color: #111198;
+.btn.btn-download {
+    @include btn-color($white, #111198);
+}
