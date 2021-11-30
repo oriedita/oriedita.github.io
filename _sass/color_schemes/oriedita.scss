@@ -1,4 +1,7 @@
 $link-color: #111198;
 .btn.btn-download {
-    @include btn-color($white, #111198);
+    color: #fff;
+    background-color: #10108f;
+    background-image: linear-gradient(#1414af, #10108f);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.12);
 }
