@@ -8,7 +8,7 @@ title: Download
 
 # Download
 
-The latest version of Oriedita is **{{ latest-version }}** you can download it from this page.
+The latest version of Oriedita is **{{ version }}** you can download it from this page.
 
 ## Java .jar
 
