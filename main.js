@@ -1,7 +1,13 @@
-async function getReleaseVersion(callback) {
+async function getRelease(callback) {
 	const response = await fetch('https://api.github.com/repos/oriedita/oriedita/releases/latest');
-	const json = await response.json();
+	callback(await response.json());
+}
+
+function version(json) {
 	let version = json.tag_name;
-	version = version.replace(/^v/, '');
-	callback(version);
+	return version.replace(/^v/, '');
+}
+
+function asset(json, ext) {
+	return json.assets.find(a => a.browser_download_url.endsWith(ext))?.browser_download_url;
 }

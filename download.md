@@ -8,30 +8,35 @@ title: Download
 
 The latest version of Oriedita is <b id="v"></b> you can download it from this page.
 
-<script src="main.js"></script>
-<script>
-	getReleaseVersion(v => document.getElementById('v').innerText = v);
-</script>
-
 ## Java .jar
 
 Runs on any platform that is supported by Java SE. Make sure you have at least Java 11 installed, you can download Java from [adoptium.net](https://adoptium.net/index.html?variant=openjdk11&jvmVariant=hotspot) or from other trusted Java distributors.
 
-[Download Java .jar](https://github.com/oriedita/oriedita/releases/download/v{{ version }}/origami-editor-{{ version }}.jar){: .btn .btn-download :}
+[Download Java .jar](https://github.com/oriedita/oriedita/releases/download/){: #jar .btn .btn-download :}
 
 ## Windows installer 
 The `.exe` file installs Oriedita on your computer, it adds a shortcut to your start menu and associates `.cp` and `.ori` files to open with Oriedita. The installer brings it's own version of Java which is used only by Oriedita, so you don't have to install it yourself.
 
-[Download Windows Installer](https://github.com/oriedita/oriedita/releases/download/v{{ version }}/Origami.Editor-{{ version }}.exe){: .btn .btn-download :}
+[Download Windows Installer](https://github.com/oriedita/oriedita/releases/download/){: #exe .btn .btn-download :}
 
 ## Windows Portable Executable
 
 The Windows portable executable comes with it's own version of Java, which is used by Oriedita. Use this version if you have problems installing Java on your computer, but don't want to install Oriedita on your computer.
 
-[Download Windows Portable](https://github.com/oriedita/oriedita/releases/download/v{{ version }}/Origami.Editor.Portable.{{ version }}.zip){: .btn .btn-download :}
+[Download Windows Portable](https://github.com/oriedita/oriedita/releases/download/){: #zip .btn .btn-download :}
 
 ## Older versions
 
 Download older releases from the GitHub Releases page.
 
 [Older releases](https://github.com/oriedita/oriedita/releases){: .btn :}
+
+<script src="main.js"></script>
+<script>
+	getRelease(r => {
+		document.getElementById('v').innerText =  version(r);
+		document.getElementById('jar').href = asset(r, 'jar');
+		document.getElementById('exe').href = asset(r, 'exe');
+		document.getElementById('zip').href = asset(r, 'zip');
+	});
+</script>

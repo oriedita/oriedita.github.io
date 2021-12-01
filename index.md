@@ -18,7 +18,7 @@ Oriedita can simulate folding a crease pattern and show if a crease pattern is f
 
 <script src="main.js"></script>
 <script>
-	getReleaseVersion(v => document.getElementById('dl').innerText += ' ' + v);
+	getRelease(r => document.getElementById('dl').innerText += ' ' + version(r));
 </script>
 
 ![](https://i.imgur.com/w1Nh7aC.png)
