@@ -6,7 +6,7 @@ title: Download
 
 # Download
 
-The latest version of Oriedita is <b id="v" class="font-weight-bold"></b> you can download it from this page.
+The latest version of Oriedita is <b id="v"></b> you can download it from this page.
 
 <script src="main.js"></script>
 <script>
