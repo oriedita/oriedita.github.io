@@ -1,4 +1,13 @@
 $link-color: #111198;
+
+.main-content a em {
+    white-space: normal;
+}
+
+.main-content dl {
+    grid-template: auto / minmax(15%, auto) !important;
+}
+
 .btn.btn-download {
     color: #fff;
     background-color: #10108f;
@@ -9,4 +18,10 @@ $link-color: #111198;
         background-color: #0f0f86;
         background-image: linear-gradient(#1212a1, #0f0f86);
     }
+}
+
+.fs-8 .btn.btn-download {
+	font-size: min(32px, calc(100vw - 110px) / 12) !important;
+    width: min(100%, 460px);
+    text-align: center;
 }
