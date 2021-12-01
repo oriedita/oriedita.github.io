@@ -4,11 +4,14 @@ nav_order: 2
 title: Download
 ---
 
-{%- include latest-version.md -%}
-
 # Download
 
-The latest version of Oriedita is **{{ version }}** you can download it from this page.
+The latest version of Oriedita is <b id="v" class="font-weight-bold"></b> you can download it from this page.
+
+<script src="main.js"></script>
+<script>
+	getReleaseVersion(v => document.getElementById('v').innerText = v);
+</script>
 
 ## Java .jar
 
