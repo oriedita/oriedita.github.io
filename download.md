@@ -39,7 +39,7 @@ The latest version of Oriedita is **{{ site.data.version.latest }}** you can dow
 
 <p>Installs Oriedita on Ubuntu and other Debian-like Linux distributions. Creates a shortcut in your launcher and associates <code>.cp</code> and <code>.ori</code> files to open with Oriedita.</p>
 
-<p><a href="https://github.com/oriedita/oriedita/releases/download/v{{ site.data.version.latest }}/oriedita_{{ site.data.version.latest }}-1_amd64.deb" class="btn btn-download">Download Installer (.deb)</a></p>
+<p><a href="https://github.com/oriedita/oriedita/releases/download/v{{ site.data.version.latest }}/oriedita_{{ site.data.version.latest }}-1_amd64.deb" class="btn btn-download">Download Linux Installer (.deb)</a></p>
 
 <h3 id="linux-portable">Linux portable</h3>
 
