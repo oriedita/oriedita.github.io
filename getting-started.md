@@ -8,7 +8,7 @@ title: Getting Started
 
 ## Installation
 
-Oriedita is distributed in a couple of different ways, on the [Downloads](./downloads.md) page you can find download links.
+Oriedita is distributed in a couple of different ways, on the [Downloads](./download.md) page you can find download links.
 
 ## Drawing
 

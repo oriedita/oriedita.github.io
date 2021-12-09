@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Oriedita Website
+logo: img/Oriedita.png
 description: >- # this means to ignore newlines until "baseurl:"
   Oriedita is an editor for origami crease patterns
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -32,10 +33,17 @@ plugins:
   - jekyll-sitemap
 
 aux_links:
-  "Contribute":
+  "Contribute on GitHub":
     - "//github.com/oriedita/oriedita"
-  "Latest release":
-    - "//github.com/oriedita/oriedita/releases/latest"
+  "Report an issue":
+    - "//github.com/oriedita/oriedita/issues"
+aux_links_new_tab: true
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/oriedita/oriedita.github.io"
+gh_edit_branch: "master"
+gh_edit_view_mode: "tree"
 
 color_scheme: oriedita
 

@@ -1,0 +1,55 @@
+.btn.btn-download {
+    color: #fff;
+    background-color: #10108f;
+    background-image: linear-gradient(#1414af, #10108f);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.12);
+    &:hover {
+        color: #fff;
+        background-color: #0f0f86;
+        background-image: linear-gradient(#1212a1, #0f0f86);
+    }
+}
+
+.fs-8 .btn.btn-download {
+    font-size: min(32px, calc(100vw - 110px) / 12) !important;
+    max-width: 100%;
+    text-align: center;
+}
+
+.anchor {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#linux:target~p .btn.linux-btn,
+#windows:target~p .btn.windows-btn,
+#mac:target~p .btn.mac-btn {
+    text-decoration: none;
+    outline: none;
+    box-shadow: inset 0 0 0 2px #5c5962;
+}
+
+#linux:target~.platform {
+    display: none;
+}
+
+#windows:target~.platform {
+    display: none;
+}
+
+#mac:target~.platform {
+    display: none;
+}
+
+#windows:target~#windows-install {
+    display: block;
+}
+
+#linux:target~#linux-install {
+    display: block;
+}
+
+#mac:target~#mac-install {
+    display: block;
+}
