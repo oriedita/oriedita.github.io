@@ -1,10 +1,15 @@
-$link-color: #111198;
 .main-content a em {
     white-space: normal;
 }
 
 .main-content dl {
     grid-template: auto / minmax(15%, auto) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .site-logo {
+        background-image: url(/img/Oriedita-dark.png) !important;
+    }
 }
 
 @import "download";
