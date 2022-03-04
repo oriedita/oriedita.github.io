@@ -14,13 +14,13 @@ Oriedita is distributed in a couple of different ways, on the [Downloads](./down
 
 Drag the mouse to create new lines.
 
-![Drawing with Oriedita](https://i.imgur.com/rsUnSY5.gif)
+![Drawing with Oriedita](https://i.imgur.com/htJvRbQ.gif)
 
 ## Folding
 
 Click the *Fold* button to fold a crease pattern.
 
-![Folding with Oriedita](https://i.imgur.com/3SkRybz.gif)
+![Folding with Oriedita](https://i.imgur.com/AlMsoze.gif)
 
 ## Saving
 
