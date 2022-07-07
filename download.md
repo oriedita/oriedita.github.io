@@ -50,8 +50,8 @@ The latest version of Oriedita is **{{ site.data.version.latest }}** you can dow
 </div>
 
 <div class="platform" id="mac-install">
-<h2>Mac <span class="label label-yellow">Coming Soon!</span></h2>
-<p><em>Packages for mac are still a work in progress, for now you can use the cross platform jar on Mac.</em></p>
+<h2>Mac</h2>
+<p><em>These packages are not trusted by Mac, you need to explicitly trust them. You can do this by running <code>xattr -d com.apple.quarantine Oriedita.app</code> from the directory where Oriedita.app is placed.</em></p>
 
 <h3 id="mac-installer">Mac installer</h3>
 
