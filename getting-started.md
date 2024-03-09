@@ -27,6 +27,8 @@ Click the *Fold* button to fold a crease pattern.
 When saving you have to choose between two different save types. Either one has their own advantages.
 
 <dl>
+<dt>FOLD (.fold)</dt>
+<dd>Export to the <a href="https://github.com/edemaine/fold">FOLD</a> file format. For use with ORIPA, Origami Simulator and others.</dd>
 <dt>.ori</dt>
 <dd>You can save files using the Oriedita file format .ori, this saves the creasepattern, customized colors and the camera position. This format is recommended when developing a new crease pattern as loading it brings you back to the same state as you left it.</dd>
 <dt>.cp</dt>
@@ -46,8 +48,6 @@ Oriedita can export to multiple different file formats.
 <dd>A lossy graphics format, can be displayed almost everywhere, resulting images are a bit smaller</dd>
 <dt>Orihime save (.orh)</dt>
 <dd>Export for opening in Orihime</dd>
-<dt>FOLD (.fold)</dt>
-<dd>Export to the <a href="https://github.com/edemaine/fold">FOLD</a> file format. For use with ORIPA, Origami Simulator and others.</dd>
 <dt>Crease pattern (.cp)</dt>
 <dd>Export the crease pattern lines. A limited, but very powerful format.</dd>
 </dl>

@@ -4,7 +4,7 @@ if (window.matchMedia) {
             if (event.matches) {
                 jtd.setTheme('dark');
             } else {
-                jtd.setTheme('my_light');
+                jtd.setTheme('default');
             }
         });
 

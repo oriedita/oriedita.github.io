@@ -73,13 +73,13 @@ The latest version of Oriedita is **{{ site.data.version.latest }}** you can dow
 
 ### Java .jar
 
-Runs on any platform that is supported by Java SE. Make sure you have at least **Java 11** installed, you can download Java from [adoptium.net](https://adoptium.net/index.html?variant=openjdk11&jvmVariant=hotspot) or from other trusted Java distributors.
+Runs on any platform that is supported by Java SE. Make sure you have at least **Java {{ site.data.version.java}}** installed, you can download Java from [adoptium.net](https://adoptium.net/index.html?variant=openjdk11&jvmVariant=hotspot) or from other trusted Java distributors.
 
 [Download Java Executable Jar (.jar)](https://github.com/oriedita/oriedita/releases/download/v{{ site.data.version.latest }}/oriedita-{{ site.data.version.latest }}.jar){: .btn .btn-download :}
 
 ## Older versions
 
-Download older releases from the GitHub Releases page.
+Download older releases from the GitHub Releases page. Here you can also read what has changed in a specific version.
 
 [Older releases](https://github.com/oriedita/oriedita/releases){: .btn :}
 
