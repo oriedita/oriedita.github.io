@@ -16,7 +16,9 @@ Oriedita can simulate folding a crease pattern and show if a crease pattern is f
 [Download Oriedita {{ site.data.version.latest }}](./download.md){: .btn .btn-download :}
 </span>
 
-![](https://i.imgur.com/luij97U.png)
+<div class="ratio ratio-16x9">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ry06uGeOTsQ?si=CCSQTPy1_Go939s6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Comunity
 
