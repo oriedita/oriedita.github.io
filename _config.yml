@@ -45,8 +45,9 @@ gh_edit_repository: "https://github.com/oriedita/oriedita.github.io"
 gh_edit_branch: "master"
 gh_edit_view_mode: "tree"
 
-color_scheme: light
+color_scheme: my_light
 
 exclude:
  - Gemfile
  - Gemfile.lock
+ - vendor
